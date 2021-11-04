@@ -1,8 +1,7 @@
 import { ThemeProvider } from '@emotion/react';
 import { Button, createMuiTheme } from '@mui/material';
-import { brown, orange } from '@mui/material/colors';
+import { brown } from '@mui/material/colors';
 import remaxColor from './components/utils/remaxColor';
-import ClickableComponent from './components/clickable/clickable';
 import NavBar from './components/navbar/navbar';
 
 const theme = createMuiTheme({
