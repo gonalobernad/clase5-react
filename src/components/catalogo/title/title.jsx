@@ -1,9 +1,10 @@
+import { Typography, Box } from "@mui/material";
 
 const TitleComponent = ({name, lastName}) => { 
     return (
-        <div>
-            <h1>Hola {name} {lastName}</h1>
-        </div>
+        <Typography variant="h2">
+            Hola {name} {lastName}
+        </Typography>
     );
 }
  

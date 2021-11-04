@@ -1,3 +1,4 @@
+import { Button, Container, Box } from '@mui/material';
 import { useState } from 'react';
 import TitleComponent from './title/title';
 
@@ -12,10 +13,22 @@ const Catalogo = (props) => {
     }
     
     return ( 
-        <div>
-            <TitleComponent name={name} lastName={lastName}/>
-            <button type='button' onClick={updateName}>Click Me</button>
-        </div>
+        <Container maxWidth="xl">
+            <Box sx={{
+                    flexGrow: 1,
+                    mx: 'auto',
+                    marginTop: 5,
+                    textAlign: 'center'
+                }}
+            >
+                <TitleComponent name={name} lastName={lastName}/>
+                <Button
+                    variant="contained"
+                    size="large"
+                    onClick={updateName}
+                >Cambiar Nombre</Button>
+            </Box>
+        </Container>
     );
 }
  

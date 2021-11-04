@@ -3,6 +3,7 @@ import { Button, createMuiTheme } from '@mui/material';
 import { brown } from '@mui/material/colors';
 import remaxColor from './components/utils/remaxColor';
 import NavBar from './components/navbar/navbar';
+import Catalogo from './components/catalogo/catalogo';
 
 const theme = createMuiTheme({
   palette: {
@@ -19,7 +20,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <NavBar />
-        <Button variant="contained">Click</Button>
+        <Catalogo />
       </div>
     </ThemeProvider>
   );
