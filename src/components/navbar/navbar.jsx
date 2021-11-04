@@ -37,7 +37,7 @@ const NavBar = () =>  {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div">
-            E-Commerce
+            eCommerce
           </Typography>
           <ProductSearch />
           <Box sx={{ flexGrow: 1 }} />
